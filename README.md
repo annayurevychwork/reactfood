@@ -11,6 +11,13 @@ Users can:
 
 ---
 
+## 🚀 Deployment
+
+- **Frontend (UI):** [https://reactfood-fawn.vercel.app](https://reactfood-fawn.vercel.app) — hosted on Vercel.
+- **Backend (API):** [https://reactfood-api.onrender.com/api/products](https://reactfood-api.onrender.com/api/products) — hosted on Render.
+
+---
+
 ## ✨ Features
 
 - **Frontend:** React application with complex state management and routing.
@@ -21,12 +28,12 @@ Users can:
 ---
 
 ## 🖼 Screenshots
-![Cart](screenshots/cart.png) 
-![Catalog](screenshots/catalog.png) 
-![Checkout](screenshots/checkout.png) 
-![Details](screenshots/details.png) 
-![Login](screenshots/login.png) 
-![Search](screenshots/search.png) 
+![Cart](reactfood-frontend/screenshots/cart.png) 
+![Catalog](reactfood-frontend/screenshots/catalog.png) 
+![Checkout](reactfood-frontend/screenshots/checkout.png) 
+![Details](reactfood-frontend/screenshots/details.png) 
+![Login](reactfood-frontend/screenshots/login.png) 
+![Search](reactfood-frontend/screenshots/search.png) 
 
 ## 🛠 Tech Stack
 
