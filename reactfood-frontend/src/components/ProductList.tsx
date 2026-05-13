@@ -10,13 +10,20 @@ export const ProductList = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/products')
+    const BASE_URL = window.location.hostname === 'localhost'
+      ? 'http://localhost:3000'
+      : 'https://reactfood-api.onrender.com'; 
+
+    fetch(`${BASE_URL}/api/products`)
       .then((res) => res.json())
       .then((data) => {
         setProducts(data);
         setIsLoading(false);
       })
-      .catch((err) => console.error('Помилка завантаження:', err));
+      .catch((err) => {
+        console.error('Помилка завантаження:', err);
+        setIsLoading(false);
+      });
   }, []);
 
   const filtered = products.filter((p) => 
